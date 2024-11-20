@@ -1,0 +1,67 @@
+.navbar{
+    width: 100%;
+    padding: 15px 7%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+
+.logo{
+    width: 160px;
+    cursor: pointer;
+}
+
+ul{
+    flex: 1;
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.toogle-icon{
+    width: 50px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    background: #242424;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.search-box input{
+    width: 200px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    padding: 6px;
+}
+.search-box input::placeholder{
+    color: #fff;
+}
+.search-box img{
+    width: 20px;
+    cursor: pointer;
+}
+.dark .navbar {
+    background: #000;
+    color: #fff;
+}
+.dark .search-box{
+    background: #fff;
+}
+.dark .search-box input{
+    color: #222;
+}
+.dark .search-box input::placeholder{
+    color: #222;
+}
